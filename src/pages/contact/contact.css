@@ -1,0 +1,33 @@
+.pagina-contacto h1 {
+  margin-bottom: 1rem;
+}
+
+.contacto-form {
+  max-width: 400px;
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.campo-form {
+  margin-bottom: 0.8rem;
+}
+
+.campo-form label {
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+.campo-form input,
+.campo-form textarea {
+  width: 100%;
+  padding: 0.4rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.success {
+  margin-top: 1rem;
+  color: green;
+  font-weight: bold;
+}

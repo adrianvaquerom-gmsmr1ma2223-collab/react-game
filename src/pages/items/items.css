@@ -1,0 +1,27 @@
+.items-pagina h1 {
+  margin-bottom: 1rem;
+}
+
+.amiibo-sect {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1rem;
+}
+
+.amiibo-card {
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.amiibo-card img {
+  max-width: 100%;
+  height: 150px;
+  object-fit: contain;
+}
+
+.amiibo-card h2 {
+  margin: 0.5rem 0;
+}

@@ -1,0 +1,13 @@
+.NavBar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: linear-gradient(90deg, #ff512f, #dd2476);
+  padding: 0.6rem 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.navbar .nav-link.active {
+  font-weight: 500;
+  text-decoration: underline;
+}

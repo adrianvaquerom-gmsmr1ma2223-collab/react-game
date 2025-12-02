@@ -1,0 +1,9 @@
+.amiibo-details h1 {
+  margin-bottom: 1rem;
+}
+
+.details-image {
+  max-width: 250px;
+  display: block;
+  margin: 1rem 0;
+}
