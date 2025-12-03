@@ -12,8 +12,8 @@ const Details = () => {
   useEffect(() => {
     axios.get(`https://www.amiiboapi.com/api/amiibo/?id=${id}`).then((res) => {
         const data = res.data.amiibo;
-        if (Array.isArray(data) && data.length > 0) {
-          setAmiibo(data[0]);
+        if (data) {
+          setAmiibo(data);
           setError("");
         } else {
           setError("No hay información oficial de este Amiibo.");
@@ -36,7 +36,11 @@ const Details = () => {
     amiibo.release?.na ||
     amiibo.release?.jp ||
     amiibo.release?.au ||
-    "Amiibo no identificado";           
+    null;
+    
+  const year = fechaLanzamiento
+    ? new Date(fechaLanzamiento).getFullYear()
+    : "Amiibo no identificado";
 
   return (
     <section className="amiibo-details">
@@ -50,7 +54,7 @@ const Details = () => {
         <strong>Saga a la que pertenece:</strong> {amiibo.gameSeries}
       </p>
       <p>
-        <strong>Año de lanzamiento:</strong> {amiibo.releaseDate}
+        <strong>Año de lanzamiento:</strong> {year}
       </p>
     </section>
   );

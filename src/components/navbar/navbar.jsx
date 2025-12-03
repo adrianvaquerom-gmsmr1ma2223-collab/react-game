@@ -12,7 +12,7 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <Link className="nav-link active" to="/items">Inicio</Link>
+              <Link className="nav-link active" to="/items">Lista de Amiibos</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/profile">Perfil de usuario</Link>
