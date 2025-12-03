@@ -1,16 +1,45 @@
-# React + Vite
+# React Game – Amiibo Viewer 🎮
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyecto realizado con **React + Vite** que consume una API externa para mostrar un catálogo de figuras Amiibo, permitiendo ver un listado completo y una página de detalles para cada una.
 
-Currently, two official plugins are available:
+Este proyecto forma parte de una práctica de desarrollo web con React.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🧩 Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Listado dinámico de Amiibos desde una API externa.
+- Página de detalles para cada Amiibo.
+- Navegación entre páginas.
+- Formulario de contacto funcional a nivel de interfaz.
+- Estructura del proyecto organizada por componentes y páginas.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tecnologías utilizadas
+
+- React
+- Vite
+- JavaScript
+- Axios
+- React Router DOM
+- HTML5
+- CSS3
+- Bootstrap
+- API externa: https://www.amiiboapi.com
+
+---
+
+## 📦 Requisitos previos
+
+Antes de instalar el proyecto es necesario tener instalado:
+
+- Node.js
+- npm
+
+Comprobación:
+
+```bash
+node -v
+npm -v
+
